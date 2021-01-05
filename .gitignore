@@ -1,0 +1,8 @@
+# NPM
+node_modules/
+
+# Git
+package-lock.json
+
+# TypeScript
+dist/
