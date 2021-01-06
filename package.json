@@ -1,0 +1,35 @@
+{
+  "name": "demo_for_angular",
+  "version": "1.0.0",
+  "description": "1. Front-end: `frontend/f0001-angular_initialize`",
+  "main": "index.js",
+  "scripts": {
+    "start": "ng serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyLovely/demo_for_angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimmyLovely/demo_for_angular/issues"
+  },
+  "homepage": "https://github.com/JimmyLovely/demo_for_angular#readme",
+  "dependencies": {
+    "@angular-devkit/build-angular": "^0.1001.7",
+    "@angular/cdk": "^10.1.0",
+    "@angular/cli": "^10.1.0",
+    "@angular/common": "^10.1.0",
+    "@angular/compiler": "^10.1.0",
+    "@angular/compiler-cli": "^10.1.0",
+    "@angular/core": "^10.1.0",
+    "@angular/forms": "^10.1.0",
+    "@angular/platform-browser": "^10.1.0",
+    "@angular/platform-browser-dynamic": "^10.1.0",
+    "rxjs": "^6.5.3",
+    "typescript": "^4.0.3",
+    "zone.js": "^0.10.3"
+  }
+}
