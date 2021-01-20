@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from "@angular/forms";
 
 // Module
 import { VmRoutingModule, VmComponents } from "./vm-routing.module";
@@ -10,6 +11,8 @@ import { VmRoutingModule, VmComponents } from "./vm-routing.module";
   ],
   imports: [
     CommonModule,
+    FormsModule,
+
     VmRoutingModule
   ]
 })

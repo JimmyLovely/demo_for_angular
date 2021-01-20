@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class IVmService {
+// Model
+import { Vm } from '../model/vm';
 
-  constructor() { }
+export abstract class IVmService {
+  abstract getAll(): Vm[];
+  abstract getFirst(): Vm;
 }

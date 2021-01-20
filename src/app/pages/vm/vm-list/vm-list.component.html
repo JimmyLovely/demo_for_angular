@@ -1,1 +1,27 @@
 <p>vm-list works!</p>
+
+<div>
+    <label>ng-for</label>
+    <table>
+        <thead>
+            <th>IP</th>
+            <th>Name</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let vm of vms">
+                <td>{{vm.ip}}</td>
+                <td>{{vm.name}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <label>ng-model</label>
+    <input type="text" [(ngModel)]="vm.ip">
+    <input type="text" [(ngModel)]="vm.name">
+    <br/>
+    <label >ng-if</label>
+    <br/>
+    <label *ngIf="vm.ip && vm.name">{{'' + vm.ip + vm.name}}</label>
+</div>
