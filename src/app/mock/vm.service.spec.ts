@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { IVmService } from './i-vm.service';
+import { VmMockService } from './vm.service';
 
-describe('IVmService', () => {
-  let service: IVmService;
+describe('VmMockService', () => {
+  let service: VmMockService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(IVmService);
+    service = TestBed.inject(VmMockService);
   });
 
   it('should be created', () => {
